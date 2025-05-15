@@ -1,4 +1,14 @@
-# Mantine Vite template
+# Skyrim Companion App
+
+## About
+
+App to check all stuff from Skyrim
+
+The icons and data come from The Elder Scrolls series, created and owned by Bethesda, the copyright of which is held by Bethesda. I upload them from UESP Wiki page to be consistent.
+
+## Made using:
+
+React, Vite, Mantine
 
 ## Features
 
@@ -32,3 +42,7 @@ This template comes with the following features:
 - `storybook` – starts storybook dev server
 - `storybook:build` – build production storybook bundle to `storybook-static`
 - `prettier:write` – formats all files with Prettier
+
+### Deploying
+
+TBD
