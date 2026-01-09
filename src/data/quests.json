@@ -1,0 +1,130 @@
+[
+  {
+    "id": "unbound",
+    "type": "MAIN",
+    "title": { "en": "Unbound", "pl": "Zerwane kajdany" },
+    "completed": false
+  },
+  {
+    "id": "before-the-storm",
+    "type": "MAIN",
+    "title": { "en": "Before the Storm", "pl": "Cisza przed burzą" },
+    "completed": false
+  },
+  {
+    "id": "bleak-falls-barrow",
+    "type": "MAIN",
+    "title": { "en": "Bleak Falls Barrow", "pl": "Czarnygłaz" },
+    "completed": false,
+    "relatedQuest": {
+      "overlap": ["the-golden-claw"]
+    },
+    "comment": "Powiązane z questem The Golden Claw – Złoty Szpon"
+  },
+  {
+    "id": "dragon-rising",
+    "type": "MAIN",
+    "title": { "en": "Dragon Rising", "pl": "Budzenie smoka" },
+    "completed": false
+  },
+  {
+    "id": "the-way-of-the-voice",
+    "type": "MAIN",
+    "title": { "en": "The Way of the Voice", "pl": "Droga głosu" },
+    "completed": false,
+    "comment": "Przeczytaj wszystkie tabliczki"
+  },
+  {
+    "id": "the-horn-of-jurgen-windcaller",
+    "type": "MAIN",
+    "title": {
+      "en": "The Horn of Jurgen Windcaller",
+      "pl": "Róg Jurgena Wiatrowładnego"
+    },
+    "completed": false,
+    "comment": "Wróć do trumny i aktywuj ją. Zapytaj Arngeira o Szepty Świata"
+  },
+  {
+    "id": "a-blade-in-the-dark",
+    "type": "MAIN",
+    "title": { "en": "A Blade in the Dark", "pl": "Ostrze w ciemnościach" },
+    "completed": false
+  },
+  {
+    "id": "diplomatic-immunity",
+    "type": "MAIN",
+    "title": { "en": "Diplomatic Immunity", "pl": "List żelazny" },
+    "completed": false,
+    "relatedQuest": {
+      "canBrokeQuest": ["find-the-thalmor-assassin"]
+    },
+    "comment": "Malborn NIE MOŻE zginąć podczas misji w ambasadzie Thalmoru"
+  },
+  {
+    "id": "a-cornered-rat",
+    "type": "MAIN",
+    "title": { "en": "A Cornered Rat", "pl": "Szczur zapędzony w kąt" },
+    "completed": false
+  },
+  {
+    "id": "alduins-wall",
+    "type": "MAIN",
+    "title": { "en": "Alduin's Wall", "pl": "Ściana Alduina" },
+    "completed": false
+  },
+  {
+    "id": "the-throat-of-the-world",
+    "type": "MAIN",
+    "title": { "en": "The Throat of the World", "pl": "Gardło Świata" },
+    "completed": false,
+    "comment": "Zabierz wyszczerbiony kilof ze szczytu góry"
+  },
+  {
+    "id": "elder-knowledge",
+    "type": "MAIN",
+    "title": { "en": "Elder Knowledge", "pl": "Pradawna wiedza" },
+    "completed": false,
+    "relatedQuest": {
+      "during": ["discerning-the-transmundane"]
+    }
+  },
+  {
+    "id": "alduins-bane",
+    "type": "MAIN",
+    "title": { "en": "Alduin's Bane", "pl": "Zguba Alduina" },
+    "completed": false
+  },
+  {
+    "id": "the-fallen",
+    "type": "MAIN",
+    "title": { "en": "The Fallen", "pl": "Upadły" },
+    "completed": false,
+    "relatedQuest": {
+      "before": ["war-quests"],
+      "during": ["season-unending"]
+    },
+    "comment": "Najlepiej wykonać PRZED zadaniami Gromowładnych lub Cesarstwa"
+  },
+  {
+    "id": "the-world-eaters-eyrie",
+    "type": "MAIN",
+    "title": {
+      "en": "The World-Eater's Eyrie",
+      "pl": "Gniazdo Pożeracza Światów"
+    },
+    "completed": false,
+    "comment": "W wieżach North i South nic nie ma"
+  },
+  {
+    "id": "sovngarde",
+    "type": "MAIN",
+    "title": { "en": "Sovngarde", "pl": "Sovngard" },
+    "completed": false
+  },
+  {
+    "id": "dragonslayer",
+    "type": "MAIN",
+    "title": { "en": "Dragonslayer", "pl": "Zabójca smoków" },
+    "completed": false
+  }
+]
