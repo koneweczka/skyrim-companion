@@ -1,6 +1,7 @@
 export function ContentArea() {
   return (
     <main className="flex-1">
+      {/* TODO: Create reusable card component and add switches between them */}
       <div className="rounded-lg border border-white/10 bg-slate-900/50 p-4 shadow-lg">
         <div className="rounded-md border border-white/10 bg-slate-800/60 px-4 py-2 text-center">
           <h2 className="font-heading text-xl tracking-wide uppercase text-slate-100">
