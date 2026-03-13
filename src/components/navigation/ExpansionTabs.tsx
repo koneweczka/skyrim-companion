@@ -1,4 +1,4 @@
-import type { ExpansionId } from "@/config/expansions";
+import type { ExpansionId } from "@/components/features/quests/expansions";
 
 interface ExpansionTab {
   id: ExpansionId;

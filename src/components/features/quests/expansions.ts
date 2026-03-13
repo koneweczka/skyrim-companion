@@ -4,4 +4,6 @@ export const expansionTabs = [
   { id: "dawnguard", label: "Dawnguard" },
 ] as const;
 
-export type ExpansionId = (typeof expansionTabs)[number]["id"];
+export type ExpansionItem = (typeof expansionTabs)[number];
+
+export type ExpansionId = ExpansionItem["id"];

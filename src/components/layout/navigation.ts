@@ -5,7 +5,10 @@ export const navigationItems = [
   { id: "daedric", label: "Daedric Quests" },
   { id: "side", label: "Side Quests" },
   { id: "collections", label: "Collections" },
+  { id: "books", label: "Books" },
   { id: "settings", label: "Settings" },
 ] as const;
 
-export type NavigationId = (typeof navigationItems)[number]["id"];
+export type NavigationItem = (typeof navigationItems)[number];
+
+export type NavigationId = NavigationItem["id"];

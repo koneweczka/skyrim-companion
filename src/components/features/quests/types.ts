@@ -1,4 +1,4 @@
-// NEW:
+// TODO: Should it be here? Cause I have seperate views for quests.
 export type Quest = {
   id: string;
   expansion: Expansion;
@@ -8,9 +8,9 @@ export type Quest = {
     en: string;
     pl: string;
   };
-  startLocation?: string; // check if I need it
+  startLocation?: string; // TODO: check if I need it
   repeatable?: boolean;
-  notInJournal?: boolean; // check if I need it
+  notInJournal?: boolean; // TODO: check if I need it
   relatedQuestIds?: {
     prerequisiteQuestIds?: string[];
     nextQuestIds?: string[];
@@ -22,16 +22,14 @@ export type Quest = {
 
 type Expansion = "skyrim" | "dragonborn" | "dawnguard" | "ccc";
 
+// TODO: maybe I just need main/side without it in questline? Check later.
 type QuestCategory =
   | "main"
   | "side"
   | "guild"
   | "war"
   | "deadric"
-  | "creation club content"
-  | "dragonborn"
-  | "dawnguard"
-  | "hearthfire" // TODO: Do i need this? Can be just in others?
+  | "creation-club-content"
   | "others";
 
 type Questline =
@@ -50,10 +48,10 @@ type Questline =
   | "dungeon"
   | "stronghold"
   | "bounty"
-  | "open world"
+  | "open-world"
   | "tutorial"
   | "fishing"
-  | "treasure map" // Maybe move to collectibles?
+  | "treasure-map" // Maybe move to collectibles?
   | "hearthfire"
   | "dragonborn-main"
   | "raven-rock"

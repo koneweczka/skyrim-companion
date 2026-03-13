@@ -1,4 +1,9 @@
-export function ContentArea() {
+interface ContentProps {
+  activeSection: string;
+  activeExpansion: string;
+}
+
+export function Content({ activeSection, activeExpansion }: ContentProps) {
   return (
     <main className="flex-1">
       {/* TODO: Create reusable card component and add switches between them */}

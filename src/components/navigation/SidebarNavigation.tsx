@@ -1,19 +1,19 @@
-import type { NavigationId } from "@/config/navigation";
+import type {
+  NavigationId,
+  NavigationItem,
+} from "@/components/layout/navigation";
 
-interface SidebarItem {
-  id: NavigationId;
-  label: string;
-}
-
-interface SideBarProps {
-  items: readonly SidebarItem[];
+interface SidebarNavigationProps {
+  items: readonly NavigationItem[];
   activeSection: NavigationId;
   onChange: (section: NavigationId) => void;
 }
 
-export function Sidebar({ items, activeSection, onChange }: SideBarProps) {
-  const active = "Dashboard";
-
+export function SidebarNavigation({
+  items,
+  activeSection,
+  onChange,
+}: SidebarNavigationProps) {
   return (
     <div>
       <h2 className="font-heading text-xl tracking-wide text-sky-300">
