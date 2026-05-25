@@ -1,7 +1,11 @@
 import { ViewPanel } from "@/components/layout/ViewPanel";
+import type { Expansion, QuestCategory, Questline } from "./types";
 
 interface QuestCategoryViewProps {
   title: string;
+  expansion: Expansion;
+  category?: QuestCategory;
+  questline?: Questline;
 }
 
 export function QuestCategoryView({ title }: QuestCategoryViewProps) {

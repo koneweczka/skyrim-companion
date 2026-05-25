@@ -19,7 +19,7 @@
     "category": "main",
     "questline": "main-skyrim",
     "title": { "en": "Bleak Falls Barrow", "pl": "Czarnygłaz" },
-    "relatedQuest": {
+    "relatedQuests": {
       "parallelQuestIds": ["the-golden-claw"]
     }
   },
@@ -62,7 +62,7 @@
     "category": "main",
     "questline": "main-skyrim",
     "title": { "en": "Diplomatic Immunity", "pl": "List żelazny" },
-    "relatedQuest": {
+    "relatedQuests": {
       "prerequisiteQuestIds": ["find-the-thalmor-assassin"]
     },
     "notes": "Malborn NIE MOŻE zginąć podczas misji w ambasadzie Thalmoru"
@@ -97,7 +97,7 @@
     "questline": "main-skyrim",
     "title": { "en": "Elder Knowledge", "pl": "Pradawna wiedza" },
 
-    "relatedQuest": {
+    "relatedQuests": {
       "parallelQuestIds": ["discerning-the-transmundane"]
     }
   },
@@ -115,7 +115,7 @@
     "questline": "main-skyrim",
     "title": { "en": "The Fallen", "pl": "Upadły" },
 
-    "relatedQuest": {
+    "relatedQuests": {
       "parallelQuestIds": ["season-unending"]
     },
     "notes": "Najlepiej wykonać PRZED jakimikolwiek zadaniami Gromowładnych lub Cesarstwa"

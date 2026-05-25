@@ -11,7 +11,7 @@ export type Quest = {
   startLocation?: string; // TODO: check if I need it
   repeatable?: boolean;
   notInJournal?: boolean; // TODO: check if I need it
-  relatedQuestIds?: {
+  relatedQuests?: {
     prerequisiteQuestIds?: string[];
     nextQuestIds?: string[];
     parallelQuestIds?: string[];
@@ -20,19 +20,19 @@ export type Quest = {
   notes?: string;
 };
 
-type Expansion = "skyrim" | "dragonborn" | "dawnguard" | "ccc";
+export type Expansion = "skyrim" | "dragonborn" | "dawnguard" | "ccc";
 
 // TODO: maybe I just need main/side without it in questline? Check later.
-type QuestCategory =
+export type QuestCategory =
   | "main"
   | "side"
   | "guild"
   | "war"
-  | "deadric"
+  | "daedric"
   | "creation-club-content"
   | "others";
 
-type Questline =
+export type Questline =
   | "main-skyrim"
   | "companions"
   | "college-of-winterhold"
